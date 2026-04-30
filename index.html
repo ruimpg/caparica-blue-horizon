@@ -1,25 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
+	<meta charset="UTF-8">
+  
+	<style>
+		.image-frame 
+		{
+			width: 100%;
+			max-width: 600px; /* ajusta se quiseres mais largo */
+			height: 420px;    /* altura da frame com scroll */
+			overflow-y: scroll;
+			overflow-x: hidden;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			background-color: #505050; /* fundo cinzento mais suave */
+			padding: 10px; /* opcional, dá espaço entre borda e imagens */
+		}
+
+		.image-frame img 
+		{
+			width: 100%;      /* auto-ajusta horizontalmente */
+			height: auto;     /* mantém proporção */
+			display: block;
+			margin-bottom: 10px;
+			border-radius: 4px; /* opcional, deixa as imagens mais elegantes */
+		}
+	</style>   
+  
   <!--<title>Caparica Blue Horizon</title>-->
 </head>
 <body>
-  <!--<img src="index.png" alt="Descrição da imagem">-->
-  
-  <h1>Calendário de Disponibilidade/Availability Calendar</h1>
-	<img src="2026-06.png" alt="Jun. 2026">
-	<br/>
-	<img src="2026-07.png" alt="Jul. 2026">
-	<br/>	
-	<img src="2026-08.png" alt="Aug. 2026">
-	<br/>	
-	<img src="2026-09.png" alt="Sep. 2026">
-	  
-  <h2>Reservar/Bookings:</h2>
-  <p>📞 <a href="tel:+351914790751">+351 914 790 751</a></p>
-  <p>✉️ <a href="mailto:rui.mp.goncalves@gmail.com">rui.mp.goncalves@gmail.com</a></p>
-  <p>💬 <a href="https://wa.me/351914790751">WhatsApp</a></p>
+	<h2>Verão 2026 / Summer 2026</h2>
+	<h3>Alojamento Local / Local Accomodation</h3>
+	2 Quartos / Bedrooms | 1 WC | Sala com kitchenette / Living room with kitchenette
+	
+	<br/><br/>
+	<h3>Reservas / Bookings</h3>	
+	📞 <a href="tel:+351914790751">+351 914 790 751</a> | ✉️ <a href="mailto:rui.mp.goncalves@gmail.com">rui.mp.goncalves@gmail.com</a> | 💬 <a href="https://wa.me/351914790751">WhatsApp</a>	
+	
+	<br/><br/>
+	<h3>Calendário de Disponibilidade / Availability Calendar</h3>
+	
+	<div class="image-frame">
+		<img src="images/calendar/2026-06.png" alt="Jun. 2026">
+		<br/>
+		<img src="images/calendar/2026-07.png" alt="Jul. 2026">
+		<br/>	
+		<img src="images/calendar/2026-08.png" alt="Aug. 2026">
+		<br/>	
+		<img src="images/calendar/2026-09.png" alt="Sep. 2026">
+	</div>
+	
+
 </body>
 </html>
 
